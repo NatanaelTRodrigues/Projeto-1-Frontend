@@ -31,7 +31,6 @@ export default async function Home() {
           <ul className="space-y-3">
             {users.map(user => (
               <li key={user.id} className="p-4 bg-white shadow rounded-lg border-l-4 border-blue-500">
-                <p className="font-medium text-lg">{user.firstName} {user.lastName}</p>
                 <p className="text-sm text-gray-500">{user.email}</p>
                 <p className="text-xs text-gray-400">ID: {user.id}</p>
               </li>
